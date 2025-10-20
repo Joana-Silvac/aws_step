@@ -1,0 +1,7 @@
+{
+  "StartAt": "Passo1",
+  "States": {
+    "Passo1": {"Type": "Task", "Next": "Passo2"},
+    "Passo2": {"Type": "Task", "End": true}
+  }
+}
